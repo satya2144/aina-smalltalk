@@ -1,0 +1,30 @@
+{
+  "name": "flutter_callkit_voximplant",
+  "version": "1.2.0+5",
+  "summary": "Flutter SDK for CallKit integration to Flutter applications on iOS",
+  "homepage": "https://github.com/voximplant/flutter_callkit",
+  "license": {
+    "type": "MIT",
+    "file": "../LICENSE.md"
+  },
+  "authors": {
+    "Zingaya Inc.": "mobiledev@zingaya.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "Flutter": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
+  }
+}

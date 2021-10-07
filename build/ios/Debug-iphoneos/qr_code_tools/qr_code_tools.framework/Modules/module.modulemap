@@ -1,0 +1,11 @@
+framework module qr_code_tools {
+  umbrella header "qr_code_tools-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module qr_code_tools.Swift {
+    header "qr_code_tools-Swift.h"
+    requires objc
+}

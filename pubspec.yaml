@@ -1,0 +1,172 @@
+name: smalltalk
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+
+version: 1.7.0
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+#  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+  fluttertoast: 7.1.8
+  jiffy: 3.0.1
+  flutter_map: 0.11.0
+  latlong: ^0.6.1
+  shared_preferences: ^0.5.8
+  flutter_riverpod: ^0.12.1
+  jwt_decoder: ^1.0.3
+  flutter_platform_widgets: ^0.72.0
+  page_indicator: ^0.3.0
+  http: 0.12.2
+  oauth2: ^1.6.3
+  encrypt: ^4.1.0
+  qr_code_scanner: ^0.1.0
+  image_picker: ^0.6.7+15
+  cupertino_setting_control: ^1.0.1
+  flutter_launcher_icons: ^0.8.1
+  qr_code_tools: ^0.0.6
+  rxdart: ^0.25.0
+  path_provider: ^1.6.24
+  package_info: ^0.4.3+2
+  permission_handler: ^5.0.1+1
+  logger: ^0.9.4
+  flutter_apns: ^1.4.1
+  flutter_reactive_ble: ^2.7.3
+  vibration: ^1.7.3
+  just_audio: ^0.6.15+1
+  url_launcher: ^5.7.10
+  location: ^3.2.4
+  flutter_callkit_voximplant: ^1.2.0+5
+  uuid: ^2.0.2
+  audio_session: ^0.0.11
+  flutter_tts: ^2.1.0
+  sip_ua:
+    path: lib/external/dart-sip-ua
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^4.1.4
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter_icons:
+  image_path: "assets/icons/app_icon.png"
+  android: true
+  ios: true
+
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/icons/app_icon.png
+  - assets/icons/aina_small_talk_app_logo.png
+  - assets/icons/qr_code.png
+  - assets/icons/Icons-25.png
+  - assets/icons/ptt_red_new.png
+  - assets/icons/ptt_grey.png
+  - assets/icons/Switch_1_channel.png
+  - assets/icons/profile.png
+  - assets/icons/back.png
+  - assets/icons/dots.png
+  - assets/icons/Icons-29.png
+  - assets/icons/Icons-29_small.png
+  - assets/icons/Icons-27.png
+  - assets/icons/Icons-27_small.png
+  - assets/icons/Switch_2_channel.png
+  - assets/icons/Aina_in_green.png
+  - assets/icons/icon_connected.png
+  - assets/icons/icon_connecting.png
+  - assets/icons/icon_disconnected.png
+  - assets/icons/icon_connected_small.png
+  - assets/icons/icon_connecting_small.png
+  - assets/icons/icon_disconnected_small.png
+  - assets/icons/Main_button_blue.png
+  - assets/icons/Main_button_red.png
+  - assets/icons/Main_button_green.png
+  - assets/icons/contact_list.png
+  - assets/icons/tab_home_grey.png
+  - assets/icons/tab_home_red.png
+  - assets/icons/tab_groups_red.png
+  - assets/icons/tab_groups_grey.png
+  - assets/icons/tab_account_red.png
+  - assets/icons/tab_account_grey.png
+  - assets/icons/tab_map_grey.png
+  - assets/icons/tab_map_red.png
+  - assets/icons/phone_small.png
+  - assets/icons/mute-icon.png
+  - assets/icons/unmute-green-icon.png
+  - assets/icons/unmute-icon.png
+  - assets/sounds/beep_double_down.wav
+  - assets/sounds/beep_double_up.wav
+  - assets/sounds/beep_hi_timer.wav
+  - assets/sounds/beep_octave_off.wav
+  - assets/sounds/beep_octave_on.wav
+  - assets/sounds/beep_space_up.wav
+  - assets/sounds/beep_trip_dry.wav
+  - assets/icons/speaker_voice_white.png
+  - assets/icons/pin_blue.png
+  - assets/icons/tab_map_grey.png
+  - assets/icons/tab_map_red.png
+  - assets/icons/ic_menu_mylocation.png
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

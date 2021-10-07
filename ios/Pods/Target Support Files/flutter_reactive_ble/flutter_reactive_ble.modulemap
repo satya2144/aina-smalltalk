@@ -1,0 +1,6 @@
+framework module flutter_reactive_ble {
+  umbrella header "flutter_reactive_ble-umbrella.h"
+
+  export *
+  module * { export * }
+}

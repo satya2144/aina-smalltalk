@@ -1,0 +1,31 @@
+{
+  "name": "qr_code_tools",
+  "version": "0.0.7",
+  "summary": "The Flutter plugin for iOS to decoding QR codes.",
+  "description": "A new Flutter plugin.",
+  "homepage": "https://github.com/AifeiI/qr_code_tools",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "AifeiI": "595345150@qq.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "dependencies": {
+    "Flutter": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

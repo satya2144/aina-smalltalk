@@ -1,0 +1,6 @@
+framework module qr_code_tools {
+  umbrella header "qr_code_tools-umbrella.h"
+
+  export *
+  module * { export * }
+}

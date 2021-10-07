@@ -1,0 +1,6 @@
+framework module flutter_callkit_voximplant {
+  umbrella header "flutter_callkit_voximplant-umbrella.h"
+
+  export *
+  module * { export * }
+}

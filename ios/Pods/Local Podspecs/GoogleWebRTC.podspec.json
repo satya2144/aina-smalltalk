@@ -1,0 +1,25 @@
+{
+  "authors": "The WebRTC project authors.",
+  "description": "WebRTC is a free, open project that provides browsers and mobile applications with Real-Time Communications (RTC) capabilities via simple APIs.",
+  "homepage": "https://webrtc.org/",
+  "license": {
+    "file": "LICENSE",
+    "type": "Multiple"
+  },
+  "name": "GoogleWebRTC",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "http": "https://bitbucket.org/ainaylo/GoogleWebRTCBuild/1.1.m89.a1/Release"
+  },
+  "preserve_paths": [
+    "LICENSE",
+    "README.md"
+  ],
+  "summary": "WebRTC iOS SDK",
+  "vendored_frameworks": [
+    "WebRTC.framework"
+  ],
+  "version": "1.1.m89.a1"
+}

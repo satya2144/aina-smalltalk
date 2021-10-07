@@ -1,0 +1,11 @@
+framework module flutter_apns {
+  umbrella header "flutter_apns-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_apns.Swift {
+    header "flutter_apns-Swift.h"
+    requires objc
+}
